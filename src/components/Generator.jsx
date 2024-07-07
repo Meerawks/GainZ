@@ -34,8 +34,9 @@ export default function Generator() {
         return(
             <button key={typeIndex} onClick={()=>{
                 setSplit(type)
-            }} className='px-5 py-3 rounded-md mt-5 boxShadow border-2 border-rose-700 capitalize'>
-               {type.replaceAll('_'," ")}
+                console.log(split, type)
+            }}  className='px-5 py-3 rounded-md mt-5 boxShadow border-2 border-rose-700 capitalize' >
+               <p className={(type===split ? 'text-rose-400' : 'text-white' )}>{type.replaceAll('_'," ")}</p>
                 </button>
         )
     })}
