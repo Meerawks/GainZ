@@ -11,7 +11,17 @@ span{
 }
 .boxShadow{
     box-shadow: 3px 3px 0 0 rosybrown;
+    transition: 0.3s;
 }
 .textShadow{
   text-shadow: rosybrown 2px 5px;
+ 
+}
+.bgimage{
+  width: 100px; 
+  opacity:80%;       
+}
+.boxShadow:hover{
+  transform: translate(-3px,-3px);
+  box-shadow: 6px 6px 0 0 rosybrown;
 }

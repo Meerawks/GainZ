@@ -3,6 +3,7 @@ import React from 'react'
 export default function Hero() {
   return (
     <div className='min-h-screen flex flex-col gap-2 items-center justify-center'>
+        <img src='/weightlift.svg'  className='bgimage'/>
         <div>
         <p className='text-lg text-center'>GRIND FOR THE</p>
         <h1 className='font-bold text-5xl sm:text-6xl md:text-7xl lg:text-8xl mt-0 text-rose-700 textShadow'>GAINZ</h1>
