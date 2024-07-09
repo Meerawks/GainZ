@@ -1,4 +1,5 @@
 import React from 'react'
+import MainButton from './MainButton'
 
 export default function Hero() {
   return (
@@ -12,7 +13,7 @@ export default function Hero() {
              and <span className='text-rose-700 font-extrabold'>challenging yourself</span>. At GainZ, we foster a supportive community that 
              motivates and inspires you along the way. We offer a variety of programs
              to keep your workouts exciting. Remember, fitness is a journey, not a destination. Let us help you make it enjoyable and rewarding! </p>
-         <button className='bg-rose-700 px-5 py-3 rounded-md mt-5 boxShadow'>Apply</button>
+         <MainButton text={'Apply'}/>
     </div>
   )
 }
