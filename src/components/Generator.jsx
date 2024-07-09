@@ -68,7 +68,7 @@ export default function Generator( props) {
     </div>
     <div className='mt-20'>
     <Header index={'02'} title={'Lock on targets'} description={"Select the muscles to annihilate"}/>
-             <div className='border-2 border-rose-700 p-2 rounded-lg mx-20 sm:mx-20 md:mx-70 lg:mx-[35%] flex justify-center items-center relative mt-5 flex-col'>
+             <div className='border-2 border-rose-700 p-2 rounded-lg mx-10 sm:mx-20 md:mx-70 lg:mx-[35%] flex justify-center items-center relative mt-5 flex-col'>
                     <p className='capitalize cursor-pointer' onClick={dropdown}>{muscles.length===0 ? 'Select Muscle Groups' : muscles.join(', ')}</p>
                     <i className="fa-solid fa-caret-down absolute right-3 top-2 cursor-pointer" onClick={dropdown}></i>
                     {showModal &&  (

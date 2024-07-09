@@ -8,7 +8,7 @@ export default function ExcerciseCard(props) {
             <h4 className='text-4xl lg:text-6xl font-bold text-rose-300'>
                 0{i+1}
             </h4>
-            <h2 className='capitalize text-xl underl'>{excercise.name.replaceAll("_", " ")}</h2>
+            <h2 className='capitalize text-xl underl lg:text-2xl'>{excercise.name.replaceAll("_", " ")}</h2>
             <p className='capitalize hidden lg:inline text-slate-600'>{excercise.type}</p>
         </div>
         <div className='flex gap-4'>
@@ -31,7 +31,7 @@ export default function ExcerciseCard(props) {
         <div className='flex justify-around mt-2'>
             {['reps','rest','tempo'].map(info =>{
                 return (
-                    <div key={info} className='border-2 border-slate-900 rounded-md p-2 px-5 sm:px-9 md:px-3 lg:px-8'>
+                    <div key={info} className='border-2 border-slate-900 rounded-md p-2 px-2 sm:px-9 md:px-3 lg:px-8'>
                         <h3 className='capitalize  text-rose-400'>{info === 'reps' ? `${excercise.unit}` : info}</h3>
                         <p className='text-center'>{excercise[info]}</p>
                     </div>
