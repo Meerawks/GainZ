@@ -11,10 +11,10 @@ export default function Hero() {
         </div>
         <p className='mt-10 font-light w-8/12 text-center sm:text-sm md:text-lg lg:text-lg'>
         Ditch the Routine, Unleash the Results: Personalized Workouts at Your Fingertips.
-        <span className='text-rose-500'>  Struggling to find the perfect workout plan?</span> Dreading another gym session full of the same old exercises? We get it. That's why we created GainZ, your one-stop shop for personalized workouts that keep you <span className='text-rose-500'>engaged</span> and<span className='text-rose-500'>on track.</span>  </p>
+        <span className='text-rose-500'>  Struggling to find the perfect workout plan?</span> Dreading another gym session full of the same old exercises? We get it. That's why we created GainZ, your one-stop shop for personalized workouts that keep you <span className='text-rose-500'>engaged</span> and<span className='text-rose-500'> on track.</span>  </p>
          <MainButton func={()=>{
           window.location.href='#generate'
-         }} text={'Apply'} id={'apply'}/>
+         }} text={'Get Started'} id={'apply'}/>
     </div>
   )
 }
