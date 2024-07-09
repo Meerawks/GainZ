@@ -13,7 +13,9 @@ export default function Hero() {
              and <span className='text-rose-700 font-extrabold'>challenging yourself</span>. At GainZ, we foster a supportive community that 
              motivates and inspires you along the way. We offer a variety of programs
              to keep your workouts exciting. Remember, fitness is a journey, not a destination. Let us help you make it enjoyable and rewarding! </p>
-         <MainButton text={'Apply'}/>
+         <MainButton func={()=>{
+          window.location.href='#generate'
+         }} text={'Apply'} id={'apply'}/>
     </div>
   )
 }

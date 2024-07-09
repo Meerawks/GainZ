@@ -14,8 +14,11 @@ function App() {
       if(muscles.length===0){
         return
       }
-      let newWorkout= generateWorkout(split, muscles, goals)
+      let newWorkout= generateWorkout({split, muscles, goals})
+      console.log('new workout', newWorkout)
       setWorkout(newWorkout)
+
+      window.location.href='#workout'
     }
   return (
     <main className='min-h-screen flex flex-col bg-gradient-to-br from-slate-900 to-zinc-950 text-white text-sm sm:text-base'>
@@ -28,6 +31,8 @@ function App() {
       goals={goals}
       setGoals={setGoals}
       updateWorkout={updateWorkout}
+      setWorkout={setWorkout}
+      workout={workout}
       />
       {workout && (<Workout workout={workout} />)}
     </main>

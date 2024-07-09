@@ -18,7 +18,7 @@ import MainButton from './MainButton'
 
 export default function Generator( props) {
 
-    const {split, setSplit, muscles, setMuscles, goals, setGoals, updateWorkout} = props
+    const {split, setSplit, muscles, setMuscles, goals, setGoals, updateWorkout, setWorkout, workout} = props
     const [showModal, setShowModal]=useState(false);
     
 
@@ -50,7 +50,7 @@ export default function Generator( props) {
 
   return (
     <div className='flex flex-col gap-10'>
-    <SectionWrapper header={'Generate your custom workout'} title={['It\'s', 'time', 'to', 'get', 'HUGE']} />
+    <SectionWrapper id={'generate'} header={'Generate your custom workout'} title={['It\'s', 'time', 'to', 'get', 'HUGE']} />
     <Header index={'01'} title={'Pick your poison'} description={"Select the workout you wish to enjoy"} />
     <div className='grid grid-cols-2 w-4/5 lg:grid-cols-4 lg:w-3/6 mx-auto gap-4'>
     {Object.keys(WORKOUTS).map((type, typeIndex )=>{
@@ -58,7 +58,8 @@ export default function Generator( props) {
             <button key={typeIndex} onClick={()=>{
                 setSplit(type)
                 setMuscles([])
-                console.log(split, type)
+                setWorkout(null)
+                console.log("workout changed" , workout)
             }}  className=' px-5 py-3 rounded-md mt-5 boxShadow border-2 border-rose-700 capitalize' >
                <p className={(type===split ? 'text-rose-400' : 'text-white' )}>{type.replaceAll('_'," ")}</p>
                 </button>
