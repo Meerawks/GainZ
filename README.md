@@ -2,7 +2,7 @@ Workout generator using React & TailwindCSS for front-end.
  
 <h1>What I Learned/Implemented</h1>
 <ul>
-   <li>TailwindCSS</li>
+   <li>TailwindCSS & responsive layout</li>
    <li>React Props</li>
    <li>React Componenets</li>
    <li>React State variables</li>
