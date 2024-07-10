@@ -1,8 +1,12 @@
-# React + Vite
+Workout generator using React & TailwindCSS for front-end.
+ 
+<h1>What I Learned</h1>
+<ul>
+   <li>TailwindCSS</li>
+   <li>React Props</li>
+   <li>React Componenets</li>
+   <li>React State variables</li>
+  <li>React Hooks useEffect()</li>
+</ul>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<a href="https://react101-gainz.netlify.app/" target="_blank">Live Preview</a>
