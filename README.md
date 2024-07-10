@@ -1,6 +1,6 @@
 Workout generator using React & TailwindCSS for front-end.
  
-<h1>What I Learned</h1>
+<h1>What I Learned/Implemented</h1>
 <ul>
    <li>TailwindCSS</li>
    <li>React Props</li>
