@@ -20,7 +20,7 @@ export const SCHEMES = {
 
 export const WORKOUTS = {
     individual: ['biceps', 'triceps', 'chest', 'back', 'shoulders', 'quads', 'hamstrings', 'glutes', 'calves', 'abs'],
-    bro_split: {
+    PPL: {
         push: ['triceps', 'chest', 'shoulders'],
         pull: ['back', 'shoulders', 'biceps'],
         legs: ['glutes', 'calves', 'hamstrings', 'quads']

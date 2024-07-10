@@ -51,7 +51,7 @@ export default function Generator( props) {
   return (
     <div className='flex flex-col gap-10'>
     <SectionWrapper id={'generate'} header={'Generate your custom workout'} title={['It\'s', 'time', 'to', 'get', 'HUGE']} />
-    <Header index={'01'} title={'Pick your poison'} description={"Select the workout you wish to enjoy"} />
+    <Header index={'01'} title={'Pick your Split'} description={"Select the workout you wish to enjoy"} />
     <div className='grid grid-cols-2 w-4/5 lg:grid-cols-4 lg:w-3/6 mx-auto gap-4'>
     {Object.keys(WORKOUTS).map((type, typeIndex )=>{
         return(
